@@ -4,13 +4,12 @@ from telethon.tl.types import ReplyInlineMarkup
 from telethon.tl.types import KeyboardButtonRow
 from telethon.tl.types import KeyboardButtonUrl
 from telethon.tl.types import KeyboardButtonCallback
-from dotenv import load_dotenv
 
 load_dotenv()
 
-apiid = os.environ.get("API_ID")
-apihash = os.environ.get("API_HASH")
-tokenbot = os.environ.get("TOKEN_BOT")
+apiid = os.getenv("API_ID")
+apihash = os.getenv("API_HASH")
+tokenbot = os.getenv("TOKEN_BOT")
 
 keyboard = ReplyInlineMarkup(rows=[
     KeyboardButtonRow(buttons=[KeyboardButtonUrl(

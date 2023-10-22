@@ -1,11 +1,11 @@
 import sys
+import os
 from time import sleep
 from requests import get
 from requests.exceptions import *
 from core.System import Bot
-from dotenv import dotenv_values
 
-token_bot = dotenv_values()['TOKEN_BOT']
+token_bot = os.getenv("TOKEN_BOT")
 
 
 def Polling():

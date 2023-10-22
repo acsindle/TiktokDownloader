@@ -1,13 +1,13 @@
 import json
+import os
 from requests import *
 from lib import downloader
 from datetime import datetime
-from dotenv import dotenv_values
 from module.messageText import *
 from lib.sendVideo import sendVideo
 from lib.sendMessage import sendMessage
 
-token_bot = dotenv_values()['TOKEN_BOT']
+token_bot = os.getenv("TOKEN_BOT")
 
 
 def get_time(tt):
