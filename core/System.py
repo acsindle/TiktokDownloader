@@ -7,7 +7,7 @@ from module.messageText import *
 from lib.sendVideo import sendVideo
 from lib.sendMessage import sendMessage
 
-token_bot = os.getenv("TOKEN_BOT")
+token_bot = os.environ.get("TOKEN_BOT")
 
 
 def get_time(tt):

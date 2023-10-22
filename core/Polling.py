@@ -5,7 +5,7 @@ from requests import get
 from requests.exceptions import *
 from core.System import Bot
 
-token_bot = os.getenv("TOKEN_BOT")
+token_bot = os.environ.get("TOKEN_BOT")
 
 
 def Polling():
