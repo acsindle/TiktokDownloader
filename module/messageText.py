@@ -1,19 +1,12 @@
 
-startText = """Welcome to Tiktok Video Downloader Bot !
+startText = """Welcome to @n9thdegree HQ TikTok Downloader,
 
-How to use the bot :
-🇺🇸 : just send tiktok video link
-
-Cara menggunakan bot :
-🇮🇩 : cukup kirimkan tautan/url video tiktok
-
-check video : https://youtu.be/wzkYMlmhTMc
+Simply send a TikTok link and I will download it in the highest quality and send it back to you!
 """
 
-videoText = """Video Downloaded from @TiktokVideoDownloaderIDBot!
+videoText = """Video Downloaded from @N9TiktokDownloader_bot!
 
-🇺🇸 : if the video does not play, resend the link !
-🇮🇩 : jika video tidak bisa diputar, kirim ulang url !
+If the video does not play, try resending the link.
 """
 
 
@@ -27,11 +20,6 @@ privateText = "Bot only work in private chat !"
 helpText = """How to use the bot :
 
 🇺🇸 : just send tiktok video link
-
-Cara menggunakan bot :
-🇮🇩 : cukup kirimkan tautan/url video tiktok
-
-check video : https://youtu.be/wzkYMlmhTMc
 """
 
 donationText = """**DONATION/DONASI**
