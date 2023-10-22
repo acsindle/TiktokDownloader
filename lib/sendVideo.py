@@ -5,8 +5,6 @@ from telethon.tl.types import KeyboardButtonRow
 from telethon.tl.types import KeyboardButtonUrl
 from telethon.tl.types import KeyboardButtonCallback
 
-load_dotenv()
-
 apiid = os.getenv("API_ID")
 apihash = os.getenv("API_HASH")
 tokenbot = os.getenv("TOKEN_BOT")
