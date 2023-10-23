@@ -39,7 +39,7 @@ def Bot(update):
         if meseg.startswith('/start'):
             sendMessage(chat_id=userid, message=startText, message_id=msgid)
         elif "tiktok.com" in meseg and "https://" in meseg:
-            getvid = dl.tikwm(url=meseg, output_name="video.mp4")
+            getvid = dl.musicaldown(url=meseg, output_name="video.mp4")
             if getvid:
                 sendVideo(chat_id=userid, video="video.mp4",
                           caption=videoText, message_id=msgid)
